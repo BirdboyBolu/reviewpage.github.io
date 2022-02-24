@@ -1,0 +1,86 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.banner{
+	min-height: 100vh;
+	width: 100%;
+	background: linear-gradient(68.6deg, rgb(252, 165, 241) 1.8%, rgb(181, 255, 255) 100.5%);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.title{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top:100px;
+}
+.title h1{
+	font-size: 36px;
+	font-weight: 600;
+	color: #8594e4;
+	font-family: 'Ubuntu', sans-serif;
+}
+.title h1::after{
+	content: '';
+	width: 15%;
+	height: 3px;
+	background: whitesmoke;
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+}
+img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin-bottom: 25px;
+	border: solid 3px;
+	border-color: #d59bf6;
+}
+div {
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+}
+.review{
+	margin: 25px 350px 100px 350px;
+	text-align: center;
+	border-radius: 12px;
+	background: whitesmoke;
+	padding: 25px;
+	display: block;
+}
+.review h2{
+	margin-bottom: 5px;
+	font-size: 25px;
+	font-weight: 600;
+	color: #d59bf6;
+	font-family: 'Ubuntu', sans-serif;
+}
+.review h3{
+	font-size: 20px;
+	font-weight: 600;
+	color: #8594e4;
+	font-family: 'Ubuntu', sans-serif;
+}
+.review p{
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 20px;
+	padding: 10px;
+	color: #d59bf6;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+ .fa{
+	color: #8594e4;
+	margin: 5px;
+}
+
+@media all and (max-width: 1050px){
+	.review{
+		margin: 15px 20px 20px 20px;
+	}
+}
